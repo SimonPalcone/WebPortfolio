@@ -1,0 +1,135 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+footer{
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: rgb(192, 185, 185);
+}
+
+audio{
+    width: 120px;
+    height: 20px;
+    color: gray;
+    border-radius: 20px;
+    float: inline-start;
+    margin-left: -300px;
+    transition: 0.2s;
+}
+audio:hover{
+    width: 270px;
+    height: 70px;
+}
+
+.text-center{
+    font-family: Music 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lead{
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lead2{
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lead3{
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.second{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.color-overlay {
+    background-color: rgba(245, 241, 241, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+
+}
+
+#colu2{
+    max-width: auto;
+    min-width: 120px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: 4px double #a157dd;
+    background-color: aliceblue;    
+}
+
+.form-label{
+    color: rgb(12, 12, 12);
+}
+
+.card-title{
+    font-style: sans-serif;
+}
+
+.card-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h5{
+    text-decoration: underline;
+    text-decoration-color: #a157dd;  
+}
+
+.btn-outline-dark{
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-outline-dark:hover, .btn-outline-dark.off{
+    color: rgb(10, 8, 8);
+    background-color: #c591f0;
+    }
+
+er{
+    background-color: blue;
+}
+
+a:hover, a.off{
+    color: rgb(10, 8, 8);
+    background-color: #cec57a;
+    }
+
+.btn-primary{
+    background-color: #c591f0;
+}
+
+footer {
+    background-color: #c591f0;
+    
+}
+
+
+footer a {
+    color: white;
+
+}
+
+footer a:hover {
+    color: #dfdfdf;
+
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
